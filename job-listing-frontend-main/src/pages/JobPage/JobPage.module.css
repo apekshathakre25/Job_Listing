@@ -1,0 +1,7 @@
+.job {
+    display: flex;
+}
+.job img {
+    width: 50%;
+    height: 100vh;
+}

@@ -1,0 +1,68 @@
+.register {
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.register__container {
+    display: flex;
+    flex-direction: column;
+}
+.register__container h3 {
+  font-family: 'DM Sans',sans-serif;
+  font-size: 30px;  
+}
+.register__container input {
+    margin: 0 0 1.2rem 0;
+    height: 60px;
+    width: 500px;
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    padding: 0 0 0 1rem;
+}
+.register__container input::placeholder {
+    color:#525252;
+    font-weight: 600;
+}
+.register__container p {
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0 0 3.5rem 0;
+    color: #525252;
+}
+.register__submitbtn {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    background: #ED5353;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 2rem 0 0.8rem 0;
+    cursor: pointer;
+}
+.register__submitbtn:hover {
+  scale: 1.01;
+}
+a:visited {
+    color: #000;
+}
+.register__text {
+    color:#525252;
+}
+.register__navigate {
+    margin: 0 0 0 0.8rem;
+    font-size: 20px;
+    color:#000;
+    text-decoration: underline;
+}
+
+.register__error {
+    color: red;
+    margin:-0.7rem 0 0.4rem 0;
+    font-size: 0.9rem;
+}

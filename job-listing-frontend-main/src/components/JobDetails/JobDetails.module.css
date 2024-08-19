@@ -1,0 +1,169 @@
+.job {
+    background: #ffeeef;
+    min-height: 100vh;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100%;
+    background: #ED5353;
+    border-radius: 0 0 60px 65px;
+    padding: 0px 60px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+.header__buttons {
+    display: flex;
+    gap: 1rem;
+}
+.header__btn {
+ border: none;
+ outline: none;
+ height: 40px;
+ width: 100px;
+ border: 2px solid #fff;
+ border-radius: 8px;
+ background: transparent;
+ font-weight: 500;
+ font-size: 15px;
+ color:#fff;
+}
+.header__btn:hover {
+    scale: 1.05;
+}
+.header__register {
+    color: #ED5353;
+    background: #fff;
+}
+.job__body {
+    margin: -1.5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.job__header {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100px;
+     width: 60%;
+     background-color: #fff;
+     box-shadow: 0px 4px 23px 2px #0000001A;
+     font-weight: 500;
+     font-size: 1.1rem;
+     padding: 25px;
+}
+
+.job__main {
+    height: 43vw;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background: #fff; 
+    padding: 30px;
+    box-shadow: 0px 2px 35px 1px #0000001A;
+
+}
+.job__main_header {
+font-family: DM Sans;
+font-size: 15px;
+font-weight: 500;
+color: #999999;
+}
+.job__main_title {
+    display: flex;
+    justify-content: space-between;
+}
+.job__main_title h3{
+font-family: DM Sans;
+font-size: 28px;
+font-weight: 700;
+}
+.job__main_location {
+    color: #ED5353;
+    font-weight: 500;
+} 
+.edit__job {
+outline: none;
+border:none;
+border-radius: 6px;
+height: 50px;
+width: 120px;
+font-size: 15px;
+font-weight: 700;
+background: #ED5353;
+color: #fff;
+}
+.edit__job:hover {
+    scale:1.05;
+}
+.job__main_time_duration {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+   width: 30%;
+   font-size: 18px;
+   color: #999999;
+
+}
+.job__main_time_stipend {
+    display: flex;
+    justify-content: space-between;
+}
+.job__main_time_salary {
+    display: flex;
+    justify-content: space-between;
+    color: #595959;
+}
+.job__main_about {
+    height: 100px;
+    width: 100%;
+}
+.job__main_skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 80px;
+    background: #FFEEEE;
+    border-radius: 21px;
+    color: #595959;
+    margin: 0 1rem 0 0;
+}
+.job__skills {
+    display: flex;
+}
+
+.job__main_time_duration {
+    margin: 1rem 0 1rem 0;
+}
+.job__main_about {
+    color:#595959;
+}
+
+.header__recruiter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.header__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__recruiter_container  {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
