@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import errorHandler from "../utils/errorHandler";
 
-const BACKENDURI = "http://localhost:3000/api/v1";
+const BACKENDURI = "https://job-listing-ufa4.onrender.com/api/v1";
 export const checkLogin = async (name, email, password) => {
   try {
     const reqUrl = `${BACKENDURI}/auth/login`;

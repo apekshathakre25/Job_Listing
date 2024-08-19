@@ -3,7 +3,7 @@ import axios from "axios";
 import errorHandler from "../utils/errorHandler";
 
 
-const BACKENDURI = "http://localhost:3000/api/v1";
+const BACKENDURI = "https://job-listing-ufa4.onrender.com/api/v1";
 export const fetchJobById = async (jobId) => {
   try {
     const reqUrl = `${BACKENDURI}/jobs/details/${jobId}`;
